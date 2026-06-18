@@ -179,3 +179,10 @@ cython_debug/
 #  refer to https://docs.cursor.com/context/ignore-files
 .cursorignore
 .cursorindexingignore
+nonverbalCues/cuesTrackerExplore.py
+nonverbalCues/cuesTrackerExplore.py
+/nonverbalCues/plots
+/nonverbalCues/survey_plots
+/nonverbalCues/01_tracking_data
+/nonverbalCues/02_tracking_data
+/nonverbalCues/03_tracking_data

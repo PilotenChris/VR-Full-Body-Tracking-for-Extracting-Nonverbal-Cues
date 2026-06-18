@@ -1,0 +1,649 @@
+{
+  "timestamp": 1768318821.935751,
+  "devices": {
+    "0": {
+      "index": 0,
+      "class": "HMD",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.004112608265131712,
+          1.6852318048477173,
+          0.0501108318567276
+        ],
+        "quat_xyzw": [
+          0.10243373294503953,
+          -0.17748201485612008,
+          0.04104200048049648,
+          0.9779176921958298
+        ],
+        "linear_vel_mps": [
+          -0.0058687287382781506,
+          0.0019048175308853388,
+          0.004198538139462471
+        ],
+        "angular_vel_radps": [
+          0.003225250169634819,
+          -6.653287709923461e-05,
+          0.023824084550142288
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "oculus",
+        "Prop_AllWirelessDongleDescriptions_String": "",
+        "Prop_Audio_DefaultPlaybackDeviceId_String": "{0.0.0.00000000}.{a6d1188a-f2ce-460c-97d6-712c067b2acd}",
+        "Prop_Audio_DefaultRecordingDeviceId_String": "{0.0.1.00000000}.{9c6b6421-3057-4dbc-99c8-322ce37e8981}",
+        "Prop_ContainsProximitySensor_Bool": true,
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerType_String": "rift",
+        "Prop_CurrentUniverseId_Uint64": 1,
+        "Prop_DashboardScale_Float": 1.0,
+        "Prop_DeviceClass_Int32": 1,
+        "Prop_DisplayFrequency_Float": 72.0,
+        "Prop_DisplayGCBlackClamp_Float": 0.0117647061124444,
+        "Prop_DisplaySuppressed_Bool": false,
+        "Prop_DriverDirectModeSendsVsyncEvents_Bool": true,
+        "Prop_DriverDisplaysIPDChanges_Bool": true,
+        "Prop_DriverIsDrawingControllers_Bool": false,
+        "Prop_DriverProvidedChaperonePath_String": "F:\\Steam\\config\\oculus\\driver_oculus.vrchap",
+        "Prop_DriverProvidedChaperoneVisibility_Bool": false,
+        "Prop_DriverRequestsApplicationPause_Bool": false,
+        "Prop_DriverRequestsReducedRendering_Bool": false,
+        "Prop_DriverVersion_String": "1.115.0",
+        "Prop_EdidVendorID_Int32": 53822,
+        "Prop_ExpectedControllerCount_Int32": 2,
+        "Prop_ExpectedControllerType_String": "oculus_touch",
+        "Prop_ExpectedTrackingReferenceCount_Int32": 0,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_GraphicsAdapterLuid_Uint64": 93775,
+        "Prop_HardwareRevision_String": "23",
+        "Prop_HardwareRevision_Uint64": 23,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": true,
+        "Prop_HasDriverDirectModeComponent_Bool": true,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_HmdTrackingStyle_Int32": 3,
+        "Prop_Hmd_AllowSupersampleFiltering_Bool": true,
+        "Prop_Hmd_SupportsAppThrottling_Bool": false,
+        "Prop_Hmd_SupportsGpuBusMonitoring_Bool": true,
+        "Prop_InputProfilePath_String": "{oculus}/input/rift_profile.json",
+        "Prop_IpdUIRangeMaxMeters_Float": 0.07199999690055847,
+        "Prop_IpdUIRangeMinMeters_Float": 0.057999998331069946,
+        "Prop_IsOnDesktop_Bool": false,
+        "Prop_ManufacturerName_String": "Oculus",
+        "Prop_ModelNumber_String": "Meta Quest 3",
+        "Prop_NamedIconPathControllerLeftDeviceOff_String": "{oculus}/icons/rifts_left_controller_off.png",
+        "Prop_NamedIconPathControllerRightDeviceOff_String": "{oculus}/icons/rifts_right_controller_off.png",
+        "Prop_NamedIconPathDeviceAlertLow_String": "",
+        "Prop_NamedIconPathDeviceNotReady_String": "{oculus}/icons/quest_headset_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{oculus}/icons/quest_headset_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{oculus}/icons/quest_headset_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{oculus}/icons/quest_headset_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{oculus}/icons/quest_headset_alert_searching.gif",
+        "Prop_NamedIconPathDeviceSearching_String": "{oculus}/icons/quest_headset_searching.gif",
+        "Prop_NamedIconPathDeviceStandby_String": "{oculus}/icons/quest_headset_standby.png",
+        "Prop_NamedIconPathTrackingReferenceDeviceOff_String": "{oculus}/icons/rifts_camera_off.png",
+        "Prop_ParentDriver_Uint64": 8589934598,
+        "Prop_RegisteredDeviceType_String": "oculus/2G0YC1ZF9S051S",
+        "Prop_RenderModelName_String": "generic_hmd",
+        "Prop_ReportsTimeSinceVSync_Bool": true,
+        "Prop_ResourceRoot_String": "oculus",
+        "Prop_SecondsFromVsyncToPhotons_Float": 0.013888888992369175,
+        "Prop_SerialNumber_String": "2G0YC1ZF9S051S",
+        "Prop_SupportedButtons_Uint64": 252,
+        "Prop_TrackingSystemName_String": "oculus",
+        "Prop_UserIpdMeters_Float": 0.06901225447654724,
+        "Prop_WillDriftInYaw_Bool": false
+      }
+    },
+    "1": {
+      "index": 1,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.002341056242585182,
+          1.2340919971466064,
+          0.09780776500701904
+        ],
+        "quat_xyzw": [
+          0.03913124247716729,
+          -0.03860180288528661,
+          0.029152985805144332,
+          0.9980624994596502
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_chest",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.8769274353981018,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://CHEST",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "2": {
+      "index": 2,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.012166070751845837,
+          0.9845584034919739,
+          0.08413060009479523
+        ],
+        "quat_xyzw": [
+          0.012741630406103323,
+          -0.04784787949953511,
+          0.003534842821215116,
+          0.9987671076726189
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_waist",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.8094099164009094,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://WAIST",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "3": {
+      "index": 3,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          -0.1382305920124054,
+          0.5464166402816772,
+          0.05345812067389488
+        ],
+        "quat_xyzw": [
+          -0.025792281714503863,
+          0.01873743654476349,
+          -0.0008831099317490245,
+          0.9994913163406631
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_left_knee",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.8438689708709717,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://LEFT_KNEE",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "4": {
+      "index": 4,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.15021005272865295,
+          0.5485262274742126,
+          0.08403588831424713
+        ],
+        "quat_xyzw": [
+          -0.015279306374370394,
+          -0.05986579214595173,
+          -0.0021611973306858733,
+          0.9980871487309645
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_right_knee",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.8287802338600159,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://RIGHT_KNEE",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "5": {
+      "index": 5,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          -0.1500721275806427,
+          0.02933010645210743,
+          0.07034766674041748
+        ],
+        "quat_xyzw": [
+          0.00015054463787909938,
+          0.04360506617679171,
+          -0.0008065304964737762,
+          0.9990485105230127
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_left_foot",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.8158667683601379,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://LEFT_FOOT",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "6": {
+      "index": 6,
+      "class": "Tracker",
+      "role": null,
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.148705393075943,
+          0.028210964053869247,
+          0.09321016818284988
+        ],
+        "quat_xyzw": [
+          0.0,
+          -0.05235699420531844,
+          0.0,
+          0.9986284356979113
+        ],
+        "linear_vel_mps": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "angular_vel_radps": [
+          0.0,
+          0.0,
+          0.0
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "slimevr",
+        "Prop_ControllerHandSelectionPriority_Int32": 0,
+        "Prop_ControllerRoleHint_Int32": 3,
+        "Prop_ControllerType_String": "vive_tracker_right_foot",
+        "Prop_CurrentUniverseId_Uint64": 4,
+        "Prop_DeviceBatteryPercentage_Float": 0.9223829507827759,
+        "Prop_DeviceClass_Int32": 3,
+        "Prop_DeviceIsCharging_Bool": false,
+        "Prop_DeviceProvidesBatteryStatus_Bool": true,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": true,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_ModelNumber_String": "SlimeVR Virtual Tracker",
+        "Prop_NamedIconPathDeviceAlertLow_String": "{slimevr}/icons/tracker_status_ready_low.png",
+        "Prop_NamedIconPathDeviceNotReady_String": "{slimevr}/icons/tracker_status_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{slimevr}/icons/tracker_status_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{slimevr}/icons/tracker_status_ready_alert.png",
+        "Prop_NamedIconPathDeviceSearching_String": "{slimevr}/icons/tracker_status_ready.png",
+        "Prop_NamedIconPathDeviceStandby_String": "{slimevr}/icons/tracker_status_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934601,
+        "Prop_RenderModelName_String": "{htc}/rendermodels/vr_tracker_vive_1_0",
+        "Prop_SerialNumber_String": "human://RIGHT_FOOT",
+        "Prop_TrackingSystemName_String": "slimevr"
+      }
+    },
+    "7": {
+      "index": 7,
+      "class": "Controller",
+      "role": "Left Controller",
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          -0.29475757479667664,
+          0.8587350845336914,
+          -0.02271527610719204
+        ],
+        "quat_xyzw": [
+          -0.0632939501958707,
+          0.25530053405227854,
+          -0.08673895715298328,
+          0.9608808671343655
+        ],
+        "linear_vel_mps": [
+          0.00773025443777442,
+          -0.006001967005431652,
+          0.015280254185199738
+        ],
+        "angular_vel_radps": [
+          0.0047870222479105,
+          0.0011386898113414645,
+          0.05415836721658707
+        ]
+      },
+      "controller_state": {
+        "packet": 0,
+        "buttons_pressed": 0,
+        "buttons_touched": 0,
+        "axes": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          }
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "oculus",
+        "Prop_Axis0Type_Int32": 2,
+        "Prop_Axis1Type_Int32": 3,
+        "Prop_Axis2Type_Int32": 3,
+        "Prop_ControllerHandSelectionPriority_Int32": -1,
+        "Prop_ControllerRoleHint_Int32": 1,
+        "Prop_ControllerType_String": "oculus_touch",
+        "Prop_DeviceClass_Int32": 2,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": false,
+        "Prop_HardwareRevision_String": "23",
+        "Prop_HardwareRevision_Uint64": 23,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_InputProfilePath_String": "{oculus}/input/touch_profile.json",
+        "Prop_ManufacturerName_String": "Oculus",
+        "Prop_ModelNumber_String": "Meta Quest 3 (Left Controller)",
+        "Prop_NamedIconPathDeviceAlertLow_String": "",
+        "Prop_NamedIconPathDeviceNotReady_String": "{oculus}/icons/rifts_left_controller_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{oculus}/icons/rifts_left_controller_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{oculus}/icons/rifts_left_controller_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{oculus}/icons/rifts_left_controller_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{oculus}/icons/rifts_left_controller_alert_searching.gif",
+        "Prop_NamedIconPathDeviceSearching_String": "{oculus}/icons/rifts_left_controller_searching.gif",
+        "Prop_NamedIconPathDeviceStandby_String": "{oculus}/icons/rifts_left_controller_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934598,
+        "Prop_RegisteredDeviceType_String": "oculus/2G0YC1ZF9S051S_Controller_Left",
+        "Prop_RenderModelName_String": "oculus_quest_plus_controller_left",
+        "Prop_ResourceRoot_String": "oculus",
+        "Prop_SerialNumber_String": "2G0YC1ZF9S051S_Controller_Left",
+        "Prop_SupportedButtons_Uint64": 30064771207,
+        "Prop_TrackingSystemName_String": "oculus"
+      }
+    },
+    "8": {
+      "index": 8,
+      "class": "Controller",
+      "role": "Right Controller",
+      "pose": {
+        "connected": true,
+        "pose_valid": true,
+        "tracking_result": 200,
+        "pos_m": [
+          0.2079918086528778,
+          2.0342600345611572,
+          -0.24358807504177094
+        ],
+        "quat_xyzw": [
+          0.38212159240248095,
+          -0.16563134536511342,
+          0.07058492827228129,
+          0.9064036518592995
+        ],
+        "linear_vel_mps": [
+          0.004388588014990091,
+          -0.021732736378908157,
+          -0.017357440665364265
+        ],
+        "angular_vel_radps": [
+          -0.15053457021713257,
+          -0.0019672680646181107,
+          -0.0655466765165329
+        ]
+      },
+      "controller_state": {
+        "packet": 0,
+        "buttons_pressed": 0,
+        "buttons_touched": 0,
+        "axes": [
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          },
+          {
+            "x": 0.0,
+            "y": 0.0
+          }
+        ]
+      },
+      "properties": {
+        "Prop_ActualTrackingSystemName_String": "oculus",
+        "Prop_Axis0Type_Int32": 2,
+        "Prop_Axis1Type_Int32": 3,
+        "Prop_Axis2Type_Int32": 3,
+        "Prop_ControllerHandSelectionPriority_Int32": -1,
+        "Prop_ControllerRoleHint_Int32": 2,
+        "Prop_ControllerType_String": "oculus_touch",
+        "Prop_DeviceClass_Int32": 2,
+        "Prop_ForceSystemLayerUseAppPoses_Bool": false,
+        "Prop_HardwareRevision_String": "23",
+        "Prop_HardwareRevision_Uint64": 23,
+        "Prop_HasCameraComponent_Bool": false,
+        "Prop_HasDisplayComponent_Bool": false,
+        "Prop_HasDriverDirectModeComponent_Bool": false,
+        "Prop_HasVirtualDisplayComponent_Bool": false,
+        "Prop_InputProfilePath_String": "{oculus}/input/touch_profile.json",
+        "Prop_ManufacturerName_String": "Oculus",
+        "Prop_ModelNumber_String": "Meta Quest 3 (Right Controller)",
+        "Prop_NamedIconPathDeviceAlertLow_String": "",
+        "Prop_NamedIconPathDeviceNotReady_String": "{oculus}/icons/rifts_right_controller_error.png",
+        "Prop_NamedIconPathDeviceOff_String": "{oculus}/icons/rifts_right_controller_off.png",
+        "Prop_NamedIconPathDeviceReadyAlert_String": "{oculus}/icons/rifts_right_controller_ready_alert.png",
+        "Prop_NamedIconPathDeviceReady_String": "{oculus}/icons/rifts_right_controller_ready.png",
+        "Prop_NamedIconPathDeviceSearchingAlert_String": "{oculus}/icons/rifts_right_controller_alert_searching.gif",
+        "Prop_NamedIconPathDeviceSearching_String": "{oculus}/icons/rifts_right_controller_searching.gif",
+        "Prop_NamedIconPathDeviceStandby_String": "{oculus}/icons/rifts_right_controller_standby.png",
+        "Prop_ParentDriver_Uint64": 8589934598,
+        "Prop_RegisteredDeviceType_String": "oculus/2G0YC1ZF9S051S_Controller_Right",
+        "Prop_RenderModelName_String": "oculus_quest_plus_controller_right",
+        "Prop_ResourceRoot_String": "oculus",
+        "Prop_SerialNumber_String": "2G0YC1ZF9S051S_Controller_Right",
+        "Prop_SupportedButtons_Uint64": 30064771207,
+        "Prop_TrackingSystemName_String": "oculus"
+      }
+    }
+  }
+}
